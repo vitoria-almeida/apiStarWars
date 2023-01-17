@@ -3,7 +3,7 @@ import { getCharacters } from './StarWarsService.js'
 async function main() {
     const starSwarsCharacters = await getCharacters(2) //paginação
 
-    //FOR OF
+    //FOR 
     for (let i = 0; i < starSwarsCharacters.length; i++) {
         console.log(starSwarsCharacters[i].name)
     }
